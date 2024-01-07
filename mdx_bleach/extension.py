@@ -67,4 +67,4 @@ class BleachExtension(Extension):
 
         bleach_pp = BleachPostprocessor(md, tags, attributes, styles,
                                         protocols, strip, strip_comments)
-        md.postprocessors.register(bleach_pp, 'bleach', 0)
+        md.postprocessors.register(bleach_pp, 'bleach', 30)
